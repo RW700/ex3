@@ -1,6 +1,4 @@
 /******************
-Name: #todo after push to GitHub
-ID: #todo after push to GitHub
 Assignment: ex3
 *******************/
 
@@ -193,7 +191,7 @@ int main() {
                     }
                 }
                 statDayChoice++;
-                printf("In day number %d\n", statDayChoice);
+                printf("In day number %d:\n", statDayChoice);
                 printf("The sales total was %d\n", salesTotal);
                 printf("The best sold brand with %d sales was %s\n", bestSoldBrandAmount, brands[bestSoldBrand]);
                 printf("The best sold type with %d sales was %s\n\n", bestSoldTypeAmount, types[bestSoldType]);
@@ -258,9 +256,9 @@ int main() {
                     }
                 }
 
-                printf("The best-selling brand overall is %s:%d$\n", brands[bestSellingBrand], bestSellingBrandAmount);
-                printf("The best-selling type of car is %s:%d$\n", types[bestSellingType], bestSellingTypeAmount);
-                printf("The most profitable day was day number %d:%d$\n", bestSellingDay + 1, bestSellingDayAmount);
+                printf("The best-selling brand overall is %s: %d$\n", brands[bestSellingBrand], bestSellingBrandAmount);
+                printf("The best-selling type of car is %s: %d$\n", types[bestSellingType], bestSellingTypeAmount);
+                printf("The most profitable day was day number %d: %d$\n", bestSellingDay + 1, bestSellingDayAmount);
 
                 break;
             case deltas:
